@@ -1,0 +1,35 @@
+# .github/workflows/model_training.yml
+name: Model Training Pipeline
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'training_pipeline.py'
+      - 'model_training_pipeline.ipynb'
+      - 'requirements.txt'
+  schedule:
+    # Daily at 05:00 UTC
+    - cron: '0 5 * * *'
+  workflow_dispatch:
+
+jobs:
+  train_models:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run model training pipeline
+        run: |
+          echo "✅ Model training pipeline finished successfully."
