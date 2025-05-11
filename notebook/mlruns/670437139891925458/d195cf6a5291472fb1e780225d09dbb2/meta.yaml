@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/kaushalshivaprakash/Desktop/project3/notebooks/mlruns/670437139891925458/d195cf6a5291472fb1e780225d09dbb2/artifacts
+end_time: 1746895666585
+entry_point_name: ''
+experiment_id: '670437139891925458'
+lifecycle_stage: active
+run_id: d195cf6a5291472fb1e780225d09dbb2
+run_name: lgbm_top10_imp
+run_uuid: d195cf6a5291472fb1e780225d09dbb2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746895663392
+status: 3
+tags: []
+user_id: kaushalshivaprakash

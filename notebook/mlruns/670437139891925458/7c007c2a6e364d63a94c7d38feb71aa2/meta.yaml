@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/kaushalshivaprakash/Desktop/project3/notebooks/mlruns/670437139891925458/7c007c2a6e364d63a94c7d38feb71aa2/artifacts
+end_time: 1746918850876
+entry_point_name: ''
+experiment_id: '670437139891925458'
+lifecycle_stage: active
+run_id: 7c007c2a6e364d63a94c7d38feb71aa2
+run_name: lgbm_28lag
+run_uuid: 7c007c2a6e364d63a94c7d38feb71aa2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746918848314
+status: 4
+tags: []
+user_id: manu

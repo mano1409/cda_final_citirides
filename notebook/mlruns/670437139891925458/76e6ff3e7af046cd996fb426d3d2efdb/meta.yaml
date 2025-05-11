@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/kaushalshivaprakash/Desktop/project3/notebooks/mlruns/670437139891925458/76e6ff3e7af046cd996fb426d3d2efdb/artifacts
+end_time: 1746919508622
+entry_point_name: ''
+experiment_id: '670437139891925458'
+lifecycle_stage: active
+run_id: 76e6ff3e7af046cd996fb426d3d2efdb
+run_name: baseline_mean
+run_uuid: 76e6ff3e7af046cd996fb426d3d2efdb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746919508618
+status: 3
+tags: []
+user_id: manu

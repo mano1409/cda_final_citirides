@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1746904878485
+current_stage: None
+description: null
+last_updated_timestamp: 1746904878485
+name: CitiBike_BestModel
+run_id: 46db17e7e9ba4389b5a20772abd2d767
+run_link: null
+source: runs:/46db17e7e9ba4389b5a20772abd2d767/model
+status: READY
+status_message: null
+storage_location: runs:/46db17e7e9ba4389b5a20772abd2d767/model
+user_id: null
+version: 1
