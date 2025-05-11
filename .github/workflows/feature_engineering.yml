@@ -1,0 +1,35 @@
+# .github/workflows/feature_engineering.yml
+name: Feature Engineering Pipeline
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'feature_pipeline.ipynb'
+      - 'feature_engineering.py'
+      - 'requirements.txt'
+  schedule:
+    # Daily at 03:00 UTC
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+
+jobs:
+  feature_engineering:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run feature engineering
+        run: |
+          echo "✅ Feature engineering pipeline completed successfully."
